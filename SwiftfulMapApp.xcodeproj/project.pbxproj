@@ -12,6 +12,9 @@
 		513FB4832E2740FF00A8A350 /* SwiftfulMapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513FB47E2E2740FF00A8A350 /* SwiftfulMapAppApp.swift */; };
 		513FB48B2E2741CF00A8A350 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513FB48A2E2741CF00A8A350 /* Location.swift */; };
 		513FB48E2E27429500A8A350 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513FB48D2E27429500A8A350 /* LocationsDataService.swift */; };
+		513FB4902E27515600A8A350 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513FB48F2E27515600A8A350 /* LocationsView.swift */; };
+		513FB4922E27548500A8A350 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513FB4912E27548100A8A350 /* LocationsViewModel.swift */; };
+		513FB4942E27630900A8A350 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513FB4932E27630900A8A350 /* LocationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		513FB47E2E2740FF00A8A350 /* SwiftfulMapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulMapAppApp.swift; sourceTree = "<group>"; };
 		513FB48A2E2741CF00A8A350 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		513FB48D2E27429500A8A350 /* LocationsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		513FB48F2E27515600A8A350 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		513FB4912E27548100A8A350 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		513FB4932E27630900A8A350 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 		513FB4852E27412300A8A350 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				513FB4912E27548100A8A350 /* LocationsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -74,6 +81,8 @@
 		513FB4862E27412B00A8A350 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				513FB48F2E27515600A8A350 /* LocationsView.swift */,
+				513FB4932E27630900A8A350 /* LocationsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,8 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				513FB4922E27548500A8A350 /* LocationsViewModel.swift in Sources */,
+				513FB4942E27630900A8A350 /* LocationsListView.swift in Sources */,
 				513FB48E2E27429500A8A350 /* LocationsDataService.swift in Sources */,
 				513FB4822E2740FF00A8A350 /* ContentView.swift in Sources */,
+				513FB4902E27515600A8A350 /* LocationsView.swift in Sources */,
 				513FB48B2E2741CF00A8A350 /* Location.swift in Sources */,
 				513FB4832E2740FF00A8A350 /* SwiftfulMapAppApp.swift in Sources */,
 			);
